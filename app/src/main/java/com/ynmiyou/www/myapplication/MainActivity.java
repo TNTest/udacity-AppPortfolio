@@ -14,7 +14,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToastPopularMovie(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), "Popular Movie Message~~", Toast.LENGTH_SHORT);
+
+        switch (view.getId()){
+            case R.id.button:
+                // TODO SOMETHING
+                show(R.string.btn1_toast_msg);
+                break;
+            case R.id.button2:
+                // TODO SOMETHING
+                show(R.string.btn2_toast_msg);
+                break;
+            case R.id.button3:
+                // TODO SOMETHING
+                show(R.string.btn3_toast_msg);
+                break;
+            case R.id.button4:
+                // TODO SOMETHING
+                show(R.string.btn4_toast_msg);
+                break;
+            case R.id.button5:
+                // TODO SOMETHING
+                show(R.string.btn5_toast_msg);
+                break;
+            case R.id.button6:
+                // TODO SOMETHING
+                show(R.string.btn6_toast_msg);
+                break;
+        }
+
+    }
+
+    private void show(int resId){
+        Toast toast = Toast.makeText(getApplicationContext(), resId, Toast.LENGTH_SHORT);
         toast.show();
     }
 }

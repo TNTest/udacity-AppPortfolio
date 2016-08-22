@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="app_title">我的测试App</string>
+    <string name="btn1">热门电影</string>
+    <string name="btn2">股票雄鹰</string>
+    <string name="btn3">进一步构建</string>
+    <string name="btn4">Material化</string>
+    <string name="btn5">随处可见</string>
+    <string name="btn6">顶点</string>
+    <string name="btn1_toast_msg">热门电影App!</string>
+    <string name="btn2_toast_msg">股票雄鹰App!</string>
+    <string name="btn3_toast_msg">进一步构建!</string>
+    <string name="btn4_toast_msg">Material化!</string>
+    <string name="btn5_toast_msg">随处可见!</string>
+    <string name="btn6_toast_msg">顶点!</string>
+
 </resources>
